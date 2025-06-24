@@ -10,7 +10,7 @@
 
     <style>
         [class^='container'] {
-            background-color: red;
+
             min-height: 200px;
             margin-bottom: 3rem;
 
@@ -18,9 +18,9 @@
         }
 
         [class^='col'] {
-            background-color: rgb(74, 8, 215);
+
             min-height: 200px;
-            border: 1px dashed white;
+
         }
     </style>
 
@@ -31,18 +31,22 @@
 
 
     <div class="container">
-        <h1 class="text-center">Boostrap 5 Responsive Grid </h1>
-        <p class="text-secondary text-center">Layout a griglia con diversi breakpoint (sm, md , lg)</p>
 
+        <h2 class="text-center"> Boostrap 5 Responsive Grid </h2>
+        <p class="text-secondary text-center">Layout a griglia con diversi breakpoint (sm, md , lg)</p>
 
     </div>
     <!-- /.container -->
 
 
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-md col-6">Colonna1 </div>
-            <div class="col-12 col-md col-6">Colonna1 </div>
+        <div class="row row-cols-1 row-cols-md-2 ">
+            <div class="col bg-light">Colonna1
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, eius!</p>
+            </div>
+            <div class="col bg-secondary text-white">Colonna2
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, dolores.</p>
+            </div>
 
         </div>
     </div>
@@ -52,28 +56,42 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-6 col-md col-4">Colonna1</div>
-            <div class="col-6 col-md col-4">Colonna2</div>
-            <div class="col-12 col-md col-4">Colonna2</div>
+            <div class="col-6 col-md col-4 bg-primary text-white">Colonna1
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aliquid!</p>
+            </div>
+            <div class="col-6 col-md col-4 bg-success text-white">Colonna2
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, deserunt?</p>
+            </div>
+            <div class="col-12 col-md col-4 bg-danger text-white">Colonna2
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, facilis.</p>
+            </div>
 
         </div>
     </div>
-    </div>
 
-    </div>
+
+
     <!-- /.container-md -->
 
 
     <div class="container">
-        <div class="row">
-            <div class="col-6 col-md col-3">Colonna1</div>
-            <div class="col-6 col-md col-3">Colonna1</div>
-            <div class="col-6 col-md col-3">Colonna1</div>
-            <div class="col-6 col-md col-3">Colonna1</div>
+        <div class="row row-cols-2 row-cols-md-4">
+            <div class="col bg-info text-white">Colonna1
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, aperiam.</p>
+            </div>
+            <div class="col bg-warning text-white">Colonna2
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, aperiam.</p>
+            </div>
+            <div class="col bg-dark text-white">Colonna3
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, aperiam.</p>
+            </div>
+            <div class="col bg-body-secondary text-black">Colonna4
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, aperiam.</p>
+            </div>
 
         </div>
     </div>
-    </div>
+
     <!-- /.container-Ig -->
 
 
